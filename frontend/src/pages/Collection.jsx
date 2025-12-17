@@ -49,7 +49,6 @@ const Collection = () => {
         break;
 
       default:
-        // relevant = do nothing
         break;
     }
 

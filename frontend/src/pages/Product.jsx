@@ -22,7 +22,7 @@ const Product = () => {
 
   useEffect(() => {
     fetchProductData();
-  }, [products]);
+  }, [products, productId]);
 
   if (!productData) return <div className="opacity-0"></div>;
 
